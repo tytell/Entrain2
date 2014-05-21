@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Accumulate XY data.vi" Type="VI" URL="../Accumulate XY data.vi"/>
 		<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
 		<Item Name="Create HDF5 chunked dataset (1D).vi" Type="VI" URL="../Create HDF5 chunked dataset (1D).vi"/>
 		<Item Name="Create HDF5 chunked dataset (2D).vi" Type="VI" URL="../Create HDF5 chunked dataset (2D).vi"/>
@@ -22,7 +23,18 @@
 		<Item Name="HDF5 append data (DBL 1D).vi" Type="VI" URL="../HDF5 append data (DBL 1D).vi"/>
 		<Item Name="HDF5 append data (DBL 2D).vi" Type="VI" URL="../HDF5 append data (DBL 2D).vi"/>
 		<Item Name="HDF5 append data.vi" Type="VI" URL="../HDF5 append data.vi"/>
+		<Item Name="Make output waveforms.vi" Type="VI" URL="../Make output waveforms.vi"/>
+		<Item Name="Make pulse data.vi" Type="VI" URL="../Make pulse data.vi"/>
+		<Item Name="Make pulse signal.vi" Type="VI" URL="../Make pulse signal.vi"/>
+		<Item Name="Make pulses.vi" Type="VI" URL="../Make pulses.vi"/>
+		<Item Name="Make shift data.vi" Type="VI" URL="../Make shift data.vi"/>
+		<Item Name="Make shift signal-old.vi" Type="VI" URL="../Make shift signal-old.vi"/>
+		<Item Name="Make shift signal.vi" Type="VI" URL="../Make shift signal.vi"/>
+		<Item Name="Make shifts.vi" Type="VI" URL="../Make shifts.vi"/>
 		<Item Name="Match motor to input.vi" Type="VI" URL="../Match motor to input.vi"/>
+		<Item Name="Phases.ctl" Type="VI" URL="../Phases.ctl"/>
+		<Item Name="Pulse data.ctl" Type="VI" URL="../Pulse data.ctl"/>
+		<Item Name="Ramp delta.vi" Type="VI" URL="../Ramp delta.vi"/>
 		<Item Name="Run info.ctl" Type="VI" URL="../Run info.ctl"/>
 		<Item Name="Sampling info.ctl" Type="VI" URL="../Sampling info.ctl"/>
 		<Item Name="Save data.vi" Type="VI" URL="../Save data.vi"/>
@@ -32,6 +44,8 @@
 		<Item Name="Setup file output channels.vi" Type="VI" URL="../Setup file output channels.vi"/>
 		<Item Name="Setup file.vi" Type="VI" URL="../Setup file.vi"/>
 		<Item Name="Setup voltage in.vi" Type="VI" URL="../Setup voltage in.vi"/>
+		<Item Name="Show phase.vi" Type="VI" URL="../Show phase.vi"/>
+		<Item Name="Stim phases.ctl" Type="VI" URL="../Stim phases.ctl"/>
 		<Item Name="Stimulus type.ctl" Type="VI" URL="../Stimulus type.ctl"/>
 		<Item Name="Stimulus.ctl" Type="VI" URL="../Stimulus.ctl"/>
 		<Item Name="Wait for empty queue.vi" Type="VI" URL="../Wait for empty queue.vi"/>
@@ -273,7 +287,9 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
