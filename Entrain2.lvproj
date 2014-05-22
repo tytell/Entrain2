@@ -23,6 +23,8 @@
 		<Item Name="HDF5 append data (DBL 1D).vi" Type="VI" URL="../HDF5 append data (DBL 1D).vi"/>
 		<Item Name="HDF5 append data (DBL 2D).vi" Type="VI" URL="../HDF5 append data (DBL 2D).vi"/>
 		<Item Name="HDF5 append data.vi" Type="VI" URL="../HDF5 append data.vi"/>
+		<Item Name="Make amp sweep signal.vi" Type="VI" URL="../Make amp sweep signal.vi"/>
+		<Item Name="Make freq sweep signal.vi" Type="VI" URL="../Make freq sweep signal.vi"/>
 		<Item Name="Make output waveforms.vi" Type="VI" URL="../Make output waveforms.vi"/>
 		<Item Name="Make pulse data.vi" Type="VI" URL="../Make pulse data.vi"/>
 		<Item Name="Make pulse signal.vi" Type="VI" URL="../Make pulse signal.vi"/>
@@ -31,6 +33,7 @@
 		<Item Name="Make shift signal-old.vi" Type="VI" URL="../Make shift signal-old.vi"/>
 		<Item Name="Make shift signal.vi" Type="VI" URL="../Make shift signal.vi"/>
 		<Item Name="Make shifts.vi" Type="VI" URL="../Make shifts.vi"/>
+		<Item Name="Make sine signal.vi" Type="VI" URL="../Make sine signal.vi"/>
 		<Item Name="Match motor to input.vi" Type="VI" URL="../Match motor to input.vi"/>
 		<Item Name="Phases.ctl" Type="VI" URL="../Phases.ctl"/>
 		<Item Name="Pulse data.ctl" Type="VI" URL="../Pulse data.ctl"/>
