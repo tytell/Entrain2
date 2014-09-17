@@ -10,51 +10,60 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Accumulate XY data.vi" Type="VI" URL="../Accumulate XY data.vi"/>
-		<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
-		<Item Name="Close file.vi" Type="VI" URL="../Close file.vi"/>
-		<Item Name="Create HDF5 chunked dataset (1D).vi" Type="VI" URL="../Create HDF5 chunked dataset (1D).vi"/>
-		<Item Name="Create HDF5 chunked dataset (2D).vi" Type="VI" URL="../Create HDF5 chunked dataset (2D).vi"/>
-		<Item Name="Create HDF5 chunked dataset.vi" Type="VI" URL="../Create HDF5 chunked dataset.vi"/>
-		<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
+		<Item Name="VIs" Type="Folder">
+			<Item Name="Accumulate waveform data.vi" Type="VI" URL="../Accumulate waveform data.vi"/>
+			<Item Name="Accumulate XY data.vi" Type="VI" URL="../Accumulate XY data.vi"/>
+			<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
+			<Item Name="Close file.vi" Type="VI" URL="../Close file.vi"/>
+			<Item Name="Create HDF5 chunked dataset (1D).vi" Type="VI" URL="../Create HDF5 chunked dataset (1D).vi"/>
+			<Item Name="Create HDF5 chunked dataset (2D).vi" Type="VI" URL="../Create HDF5 chunked dataset (2D).vi"/>
+			<Item Name="Create HDF5 chunked dataset.vi" Type="VI" URL="../Create HDF5 chunked dataset.vi"/>
+			<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
+			<Item Name="File refs.ctl" Type="VI" URL="../File refs.ctl"/>
+			<Item Name="Generate noise.vi" Type="VI" URL="../Generate noise.vi"/>
+			<Item Name="Get channel servo info.vi" Type="VI" URL="../Get channel servo info.vi"/>
+			<Item Name="Get stimulus stat.vi" Type="VI" URL="../Get stimulus stat.vi"/>
+			<Item Name="HDF5 append data (DBL 1D).vi" Type="VI" URL="../HDF5 append data (DBL 1D).vi"/>
+			<Item Name="HDF5 append data (DBL 2D).vi" Type="VI" URL="../HDF5 append data (DBL 2D).vi"/>
+			<Item Name="HDF5 append data.vi" Type="VI" URL="../HDF5 append data.vi"/>
+			<Item Name="Increment file number.vi" Type="VI" URL="../Increment file number.vi"/>
+			<Item Name="Make amp sweep signal.vi" Type="VI" URL="../Make amp sweep signal.vi"/>
+			<Item Name="Make freq sweep signal.vi" Type="VI" URL="../Make freq sweep signal.vi"/>
+			<Item Name="Make output waveforms.vi" Type="VI" URL="../Make output waveforms.vi"/>
+			<Item Name="Make pulse data.vi" Type="VI" URL="../Make pulse data.vi"/>
+			<Item Name="Make pulse signal.vi" Type="VI" URL="../Make pulse signal.vi"/>
+			<Item Name="Make pulses.vi" Type="VI" URL="../Make pulses.vi"/>
+			<Item Name="Make ramp data.vi" Type="VI" URL="../Make ramp data.vi"/>
+			<Item Name="Make ramps.vi" Type="VI" URL="../Make ramps.vi"/>
+			<Item Name="Make servo signal.vi" Type="VI" URL="../Make servo signal.vi"/>
+			<Item Name="Make shift data.vi" Type="VI" URL="../Make shift data.vi"/>
+			<Item Name="Make shift signal-old.vi" Type="VI" URL="../Make shift signal-old.vi"/>
+			<Item Name="Make shift signal.vi" Type="VI" URL="../Make shift signal.vi"/>
+			<Item Name="Make shifts.vi" Type="VI" URL="../Make shifts.vi"/>
+			<Item Name="Make sine signal.vi" Type="VI" URL="../Make sine signal.vi"/>
+			<Item Name="Match motor to input.vi" Type="VI" URL="../Match motor to input.vi"/>
+			<Item Name="Phases.ctl" Type="VI" URL="../Phases.ctl"/>
+			<Item Name="Plot PSD.vi" Type="VI" URL="../Plot PSD.vi"/>
+			<Item Name="Pulse data.ctl" Type="VI" URL="../Pulse data.ctl"/>
+			<Item Name="Ramp delta.vi" Type="VI" URL="../Ramp delta.vi"/>
+			<Item Name="Run info.ctl" Type="VI" URL="../Run info.ctl"/>
+			<Item Name="Sampling info.ctl" Type="VI" URL="../Sampling info.ctl"/>
+			<Item Name="Save data.vi" Type="VI" URL="../Save data.vi"/>
+			<Item Name="Save start time.vi" Type="VI" URL="../Save start time.vi"/>
+			<Item Name="Select stimulus.vi" Type="VI" URL="../Select stimulus.vi"/>
+			<Item Name="Set motor start time.vi" Type="VI" URL="../Set motor start time.vi"/>
+			<Item Name="Setup file input channels.vi" Type="VI" URL="../Setup file input channels.vi"/>
+			<Item Name="Setup file output channels.vi" Type="VI" URL="../Setup file output channels.vi"/>
+			<Item Name="Setup file.vi" Type="VI" URL="../Setup file.vi"/>
+			<Item Name="Setup servo out.vi" Type="VI" URL="../Setup servo out.vi"/>
+			<Item Name="Setup voltage in.vi" Type="VI" URL="../Setup voltage in.vi"/>
+			<Item Name="Show phase.vi" Type="VI" URL="../Show phase.vi"/>
+			<Item Name="Stim phases.ctl" Type="VI" URL="../Stim phases.ctl"/>
+			<Item Name="Stimulus type.ctl" Type="VI" URL="../Stimulus type.ctl"/>
+			<Item Name="Stimulus.ctl" Type="VI" URL="../Stimulus.ctl"/>
+			<Item Name="Wait for empty queue.vi" Type="VI" URL="../Wait for empty queue.vi"/>
+		</Item>
 		<Item Name="Entrain2.vi" Type="VI" URL="../Entrain2.vi"/>
-		<Item Name="Generate noise.vi" Type="VI" URL="../Generate noise.vi"/>
-		<Item Name="Get channel servo info.vi" Type="VI" URL="../Get channel servo info.vi"/>
-		<Item Name="Get stimulus stat.vi" Type="VI" URL="../Get stimulus stat.vi"/>
-		<Item Name="HDF5 append data (DBL 1D).vi" Type="VI" URL="../HDF5 append data (DBL 1D).vi"/>
-		<Item Name="HDF5 append data (DBL 2D).vi" Type="VI" URL="../HDF5 append data (DBL 2D).vi"/>
-		<Item Name="HDF5 append data.vi" Type="VI" URL="../HDF5 append data.vi"/>
-		<Item Name="Make amp sweep signal.vi" Type="VI" URL="../Make amp sweep signal.vi"/>
-		<Item Name="Make freq sweep signal.vi" Type="VI" URL="../Make freq sweep signal.vi"/>
-		<Item Name="Make output waveforms.vi" Type="VI" URL="../Make output waveforms.vi"/>
-		<Item Name="Make pulse data.vi" Type="VI" URL="../Make pulse data.vi"/>
-		<Item Name="Make pulse signal.vi" Type="VI" URL="../Make pulse signal.vi"/>
-		<Item Name="Make pulses.vi" Type="VI" URL="../Make pulses.vi"/>
-		<Item Name="Make ramps.vi" Type="VI" URL="../Make ramps.vi"/>
-		<Item Name="Make shift data.vi" Type="VI" URL="../Make shift data.vi"/>
-		<Item Name="Make shift signal-old.vi" Type="VI" URL="../Make shift signal-old.vi"/>
-		<Item Name="Make shift signal.vi" Type="VI" URL="../Make shift signal.vi"/>
-		<Item Name="Make shifts.vi" Type="VI" URL="../Make shifts.vi"/>
-		<Item Name="Make sine signal.vi" Type="VI" URL="../Make sine signal.vi"/>
-		<Item Name="Match motor to input.vi" Type="VI" URL="../Match motor to input.vi"/>
-		<Item Name="Phases.ctl" Type="VI" URL="../Phases.ctl"/>
-		<Item Name="Pulse data.ctl" Type="VI" URL="../Pulse data.ctl"/>
-		<Item Name="Ramp delta.vi" Type="VI" URL="../Ramp delta.vi"/>
-		<Item Name="Run info.ctl" Type="VI" URL="../Run info.ctl"/>
-		<Item Name="Sampling info.ctl" Type="VI" URL="../Sampling info.ctl"/>
-		<Item Name="Save data.vi" Type="VI" URL="../Save data.vi"/>
-		<Item Name="Save start time.vi" Type="VI" URL="../Save start time.vi"/>
-		<Item Name="Select stimulus.vi" Type="VI" URL="../Select stimulus.vi"/>
-		<Item Name="Set motor start time.vi" Type="VI" URL="../Set motor start time.vi"/>
-		<Item Name="Setup file input channels.vi" Type="VI" URL="../Setup file input channels.vi"/>
-		<Item Name="Setup file output channels.vi" Type="VI" URL="../Setup file output channels.vi"/>
-		<Item Name="Setup file.vi" Type="VI" URL="../Setup file.vi"/>
-		<Item Name="Setup voltage in.vi" Type="VI" URL="../Setup voltage in.vi"/>
-		<Item Name="Show phase.vi" Type="VI" URL="../Show phase.vi"/>
-		<Item Name="Stim phases.ctl" Type="VI" URL="../Stim phases.ctl"/>
-		<Item Name="Stimulus type.ctl" Type="VI" URL="../Stimulus type.ctl"/>
-		<Item Name="Stimulus.ctl" Type="VI" URL="../Stimulus.ctl"/>
-		<Item Name="Wait for empty queue.vi" Type="VI" URL="../Wait for empty queue.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
@@ -338,19 +347,11 @@
 				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Accumulate waveform data.vi" Type="VI" URL="../Accumulate waveform data.vi"/>
-			<Item Name="File refs.ctl" Type="VI" URL="../File refs.ctl"/>
 			<Item Name="Gain compensation.vi" Type="VI" URL="../Gain compensation.vi"/>
-			<Item Name="Increment file number.vi" Type="VI" URL="../Increment file number.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Make ramp data.vi" Type="VI" URL="../Make ramp data.vi"/>
-			<Item Name="Make servo signal.vi" Type="VI" URL="../Make servo signal.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Plot PSD.vi" Type="VI" URL="../Plot PSD.vi"/>
-			<Item Name="Setup servo out.vi" Type="VI" URL="../Setup servo out.vi"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
